@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F440C5E1DD33AA100283D49 /* GBaseProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F440C5D1DD33AA100283D49 /* GBaseProject.m */; };
 		4F440C5F1DD33AA100283D49 /* GBaseProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F440C5C1DD33AA100283D49 /* GBaseProject.h */; };
+		4F440C661DD33B1100283D49 /* GBaseProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F440C5C1DD33AA100283D49 /* GBaseProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4F440C651DD33AF400283D49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F440C661DD33B1100283D49 /* GBaseProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		4F440C581DD33AA100283D49 /* GBaseProject */ = {
 			isa = PBXNativeTarget;
@@ -76,6 +88,7 @@
 				4F440C551DD33AA100283D49 /* Sources */,
 				4F440C561DD33AA100283D49 /* Frameworks */,
 				4F440C571DD33AA100283D49 /* CopyFiles */,
+				4F440C651DD33AF400283D49 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -171,7 +184,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -212,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

@@ -10,4 +10,6 @@
 
 @interface GBaseProject : NSObject
 
+- (void)showLog;
+
 @end
